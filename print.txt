@@ -4,3 +4,4 @@
 
 print ("Hello, World!")
 print ("My name is Anwar")
+Print ("Today's date is 08/18")
