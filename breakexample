@@ -1,0 +1,6 @@
+keyword=input("Enter a key word:")
+while keyword != "chupacabra":
+    if(keyword == "chupacabra"):
+        break
+    keyword = input("Enter key word:")
+print("out of loop")
