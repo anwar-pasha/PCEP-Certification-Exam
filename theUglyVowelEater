@@ -1,0 +1,26 @@
+# Prompt the user to enter a word
+# and assign it to the user_word variable.
+user_word=input("Enter a name:")
+user_word=user_word.upper()
+for i in user_word:
+    # Complete the body of the for loop.
+    if(i=="A" or i=="E" or i=="I" or i=="O" or i=="U"):
+        continue
+    print(i)
+    
+    
+#Test data
+#Sample input: Gregory
+#Expected output:
+#G
+#R
+#G
+#R
+#Y
+#Sample input: abstemious
+#Expected output:
+#B
+#S
+#T
+#M
+#S
