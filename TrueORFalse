@@ -1,0 +1,15 @@
+x = int(input("Enter a value:"))
+print(x>=100)
+
+#Sample input: 55
+#Expected output: False
+#Sample input: 99
+#Expected output: False
+#Sample input: 100
+#Expected output: True
+#Sample input: 101
+#Expected output: True
+#Sample input: -5
+#Expected output: False
+#Sample input: +123
+#Expected output: True
