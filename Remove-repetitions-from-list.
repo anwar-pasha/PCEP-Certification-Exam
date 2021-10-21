@@ -1,0 +1,10 @@
+#Your task is to write a program which removes all the number repetitions from the list. The goal is to have a list in which all the numbers appear not more than once.
+
+mylist = [ 1, 2, 2, 3, 3, 4]
+res=[]
+
+for i in range (len(mylist)):
+    if mylist[i] not in res:
+        res.append(mylist[i])
+
+print(res)
